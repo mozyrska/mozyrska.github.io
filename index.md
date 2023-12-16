@@ -1,4 +1,4 @@
----
+<!-----
 layout: frontpage
 title: Blue Ham
 description: Blue Ham is a PhD candidate at Broom University. 
@@ -11,7 +11,6 @@ Blue Ham is a PhD candidate at Broom University. His research interests include 
 
 
 ---
-
 
 <div class="container">
 <h4><a name="contact"></a>contact</h4>
@@ -38,4 +37,4 @@ Blue Ham is a PhD candidate at Broom University. His research interests include 
           <li><a href="https://twitter.com/dog_feelings">Twitter (@dog_feelings)</a></li>
       </ul>
   </div>
-</div>
+</div>-->
