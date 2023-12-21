@@ -1,0 +1,148 @@
+:root {
+    --text-colour: #494e52;
+    --accent-colour: #167685;
+    --accent-dark: #0d4750;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    color: var(--text-colour);
+}
+
+main {
+    position: relative;
+    max-width: min(90ch, 80%);
+    margin-inline: auto;
+    margin-block: 2rem 4rem;
+    background-color: white;
+    padding: 1.5rem;
+}
+
+* + section {
+    margin-top: 3rem;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+a {
+    color: var(--accent-colour);
+}
+
+a:hover {
+    filter: brightness(0.8);
+}
+
+section p {
+    margin-block: -5px 1.3rem;
+}
+
+span.baller {
+    font-weight: 500;
+}
+
+span.publication {
+    font-style: italic;
+}
+
+#intro > img, div.card > img {
+    border: 1px solid var(--accent-dark);
+    height: auto;
+    margin-right: 2rem;
+}
+
+#intro, div.card {
+    display: flex;
+    align-items: center;
+}
+
+#intro > img {
+   max-width: 30%;
+   border-radius: 0.5rem;
+}
+
+#intro > div {
+    min-width: 50%;
+}
+
+#intro > div * + p {
+    margin-block: 1rem;
+}
+
+#intro h1 {
+    margin-block: 0 1rem;
+    font-size: 2rem;
+}
+
+section h2 {
+    font-size: 1.25rem;
+    border-bottom: 1px solid var(--accent-dark);
+    margin-bottom: 0;
+}
+
+div.card {
+    height: fit-content;
+}
+
+div.card > div {
+    padding-block: 1.5rem;
+}
+
+h2 + div.card {
+    margin-top: 1rem;
+}
+
+div.card + div.card {
+    margin-top: 2rem;
+}
+
+div.card > img {
+    max-width: 15%;
+    min-width: 8rem;
+    height: auto;
+}
+
+div.card h3 {
+    font-size: 1rem;
+    margin-block: 0 0.5rem;
+}
+
+div.card p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+    #intro, div.card {
+        flex-direction: column;
+    }
+
+    #intro > img, div.card > img {
+        margin-inline: auto;
+        max-width: min(90%, 200px);
+        margin-bottom: 1rem;
+    }
+}
+
+.cv-icon {
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    background-color: #ffffff;
+    border: 1px solid var(--accent-colour);
+    text-align: center;
+    line-height: 23px;
+    font-size: 15px;
+    color:  var(--accent-colour);
+    text-decoration: none;
+}
+
+.cv-icon:hover {
+    color:   #ffffff;
+    background-color: var(--accent-colour);
+}
