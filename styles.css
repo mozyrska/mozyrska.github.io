@@ -38,8 +38,8 @@ main {
     padding: 1.5rem;
 
     /* Fancy shmancy */
-    border-radius: 1rem;
-    filter: drop-shadow(0 0.5rem 0.5rem #3e565980);
+    /* border-radius: 1rem;
+    filter: drop-shadow(0 0.5rem 0.5rem #3e565980); */
 /*     animation: 0.4s ease-in fade-in; */
 }
 
