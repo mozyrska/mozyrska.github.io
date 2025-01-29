@@ -117,7 +117,7 @@ div.card p {
     margin-bottom: 0;
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
     #intro, div.card {
         flex-direction: column;
     }
@@ -128,6 +128,25 @@ div.card p {
         margin-bottom: 1rem;
     }
 }
+ */
+
+@media (max-width: 900px) {
+    #intro, div.card {
+        flex-direction: column;
+        align-items: center; /* Ensure all child items are centered */
+    }
+
+    div.card > img {
+        margin-inline: auto;  /* Centers the image */
+        max-width: min(90%, 200px);
+        margin-bottom: 1rem;
+    }
+
+    div.card > div {
+        text-align: center;  /* Center the text */
+    }
+}
+
 
 .cv-icon {
     display: inline-block;
