@@ -166,3 +166,12 @@ div.card p {
     color:   #ffffff;
     background-color: var(--accent-colour);
 }
+
+span.me_in_pub {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+span.journal_conference {
+    font-style: italic;
+}
