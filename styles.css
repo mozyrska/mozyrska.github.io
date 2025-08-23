@@ -192,6 +192,10 @@ div.card p {
     text-decoration: none;
 }
 
+.cv-icon span.text {
+    color: black;
+}
+
 .cv-icon:hover {
     color:   #ffffff;
     background-color: var(--accent-colour);
