@@ -172,6 +172,27 @@ span.me_in_pub {
     text-decoration: underline;
 }
 
+/*  */
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
 span.journal_conference {
     font-style: italic;
 }
