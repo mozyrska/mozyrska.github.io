@@ -183,7 +183,7 @@ div.card p {
     height: 20px;
 /*     background-color: #ffffff; */
     background-color: #20afc5;
-    color: black;
+    text-color: black;
 /*     border: 1px solid var(--accent-colour); */
     text-align: center;
     line-height: 23px;
