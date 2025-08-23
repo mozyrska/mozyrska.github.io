@@ -178,12 +178,12 @@ div.card p {
 
 
 .cv-icon {
+    color: black;
     display: inline-block;
     width: 24px;
     height: 20px;
 /*     background-color: #ffffff; */
     background-color: #20afc5;
-    text-color: black;
 /*     border: 1px solid var(--accent-colour); */
     text-align: center;
     line-height: 23px;
