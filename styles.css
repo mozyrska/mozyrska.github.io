@@ -194,6 +194,7 @@ div.card p {
 
 .cv-icon span.text {
     color: black;
+    font-weight: bold;
 }
 
 .cv-icon:hover {
