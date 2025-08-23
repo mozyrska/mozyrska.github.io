@@ -1,14 +1,37 @@
-:root {
+/* :root {
     --text-colour: #494e52;
     --accent-colour: #167685;
     --accent-dark: #0d4750;
+} */
+
+:root {
+    --text-colour: #ffffff;   /* white text */
+    --accent-colour: #167685; /* keep your blue accent */
+    --accent-dark: #0d4750;
 }
+
+body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    background-color: black;  /* set background globally */
+    color: var(--text-colour); /* use white text */
+}
+
+main {
+    position: relative;
+    max-width: min(90ch, 80%);
+    margin-inline: auto;
+    margin-block: 2rem 4rem;
+    padding: 1.5rem;
+    background-color: black; /* can also be transparent so it inherits from body */
+}
+
 
 html {
     font-size: 18px;
 }
 
-body {
+/* body {
     font-family: system-ui, sans-serif;
     line-height: 1.5;
     color: var(--text-colour);
@@ -21,7 +44,7 @@ main {
     margin-block: 2rem 4rem;
     background-color: white;
     padding: 1.5rem;
-}
+} */
 
 * + section {
     margin-top: 3rem;
