@@ -18,10 +18,6 @@
 </head>
 
 <body>
-
-    <!-- Dark/Light mode toggle button -->
-    <button id="toggleBtn">Switch to Dark Mode</button>
-
     <main>
         <section id='intro'>
             <img src='images/profile.jpeg'>
@@ -192,21 +188,6 @@
         </section>
 
     </main>
-
-    <!-- Dark/Light mode script -->
-    <script>
-        const button = document.getElementById('toggleBtn');
-        const body = document.body;
-
-        button.addEventListener('click', () => {
-            body.classList.toggle('dark-mode');
-            if (body.classList.contains('dark-mode')) {
-                button.textContent = "Switch to Light Mode";
-            } else {
-                button.textContent = "Switch to Dark Mode";
-            }
-        });
-    </script>
 
 </body>
 </html>
