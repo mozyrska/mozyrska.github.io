@@ -205,3 +205,7 @@ span.me_in_pub {
 span.journal_conference {
     font-style: italic;
 }
+
+img.no-border {
+    border: none !important;
+}
