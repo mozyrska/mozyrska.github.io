@@ -215,7 +215,7 @@ img.no-border {
     border: none !important;
 }
 
-.icon-link i, .cv-icon .text{
+.icon-link i, .cv-icon .span .text{
     font-size: 1.75em; 
     vertical-align: middle; 
 }
