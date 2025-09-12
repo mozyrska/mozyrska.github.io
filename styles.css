@@ -177,7 +177,7 @@ div.card p {
 }
 
 
-.cv-icon {
+/* .cv-icon {
     color: black;
     display: inline-block;
     width: 24px;
@@ -190,7 +190,7 @@ div.card p {
     font-size: 15px;
     color:  var(--accent-colour);
     text-decoration: none;
-}
+} */
 
 .cv-icon span.text {
     color: black;
@@ -215,7 +215,18 @@ img.no-border {
     border: none !important;
 }
 
-.icon-link i, .cv-icon .span .text{
+.icon-link i{
     font-size: 1.75em; 
     vertical-align: middle; 
+}
+
+.cv-icon {
+    display: inline-block;
+    padding: 0.4em 0.6em;
+    font-size: 1.5em;
+    background-color: #20afc5;
+    color: var(--accent-colour);
+    text-decoration: none;
+    border-radius: 0.3em;
+    line-height: 1;
 }
