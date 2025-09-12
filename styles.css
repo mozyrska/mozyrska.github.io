@@ -223,6 +223,6 @@ img.no-border {
 .icon-container {
     display: flex;
     gap: 12px; /* space between all children */
-/*     align-items: center; /* vertical alignment */ */
+    align-items: center; /* vertical alignment */
 }
         
