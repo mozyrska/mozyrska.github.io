@@ -223,7 +223,7 @@ img.no-border {
 .cv-icon {
     display: inline-block;
     padding: 0.4em 0.6em;
-    font-size: 1.5em;
+    font-size: 1.75em;
     background-color: #20afc5;
     color: var(--accent-colour);
     text-decoration: none;
