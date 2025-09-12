@@ -219,3 +219,10 @@ img.no-border {
     font-size: 1.75em; 
     vertical-align: middle; 
 }
+
+.icon-container {
+    display: flex;
+    gap: 12px; /* space between all children */
+/*     align-items: center; /* vertical alignment */ */
+}
+        
