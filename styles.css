@@ -183,14 +183,14 @@ div.card p {
     width: 24px;
     height: 20px;
 /*     background-color: #ffffff; */
-    background-color: #20afc5;
+/*     background-color: #20afc5; */
 /*     border: 1px solid var(--accent-colour); */
-    text-align: center;
-    line-height: 23px;
+/*     text-align: center; */
+/*     line-height: 23px;
     font-size: 15px;
     color:  var(--accent-colour);
-    text-decoration: none;
-} */
+    text-decoration: none; */
+/* } */ */
 
 .cv-icon span.text {
     color: black;
