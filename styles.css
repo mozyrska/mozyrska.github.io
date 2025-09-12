@@ -211,6 +211,12 @@ span.journal_conference {
     font-style: italic;
 }
 
+.icon-link i {
+    font-size: 1.5em; 
+    vertical-align: middle; 
+}
+
+
 img.no-border {
     border: none !important;
 }
