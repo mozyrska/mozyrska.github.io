@@ -219,14 +219,3 @@ img.no-border {
     font-size: 1.75em; 
     vertical-align: middle; 
 }
-
-.cv-icon {
-    display: inline-block;
-    padding: 0.4em 0.6em;
-    font-size: 1.75em;
-    background-color: #20afc5;
-    color: var(--accent-colour);
-    text-decoration: none;
-    border-radius: 0.3em;
-    line-height: 1;
-}
